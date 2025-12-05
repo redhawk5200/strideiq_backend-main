@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+/__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+.env/
+.env.*  # If using environment variable files like .env.dev
+.env
+
+# macOS metadata
+.DS_Store
+
+# VS Code / IDE settings
+.vscode/
+.idea/
+
+# Logs
+/logs/
+*.log
+
+# OS-specific
+Thumbs.db
+
+# PyInstaller
+*.spec
+
+# Unit test / coverage
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# Static file cache / build
+*.tar.gz
+*.egg-info/
+build/
+dist/
+
+# FastAPI static/uploads
+/static/*
+!/static/styles.css
+!/static/*.js
+!/static/*.html
+
+# ChromaDB local storage
+chroma/
+chroma.db
+
+# Temp PDFs
+/tmp/
+*.pdf
+
+uploaded_documents.json
+# Python bytecode files
+*.pyo
+*.pyd
+*.pyo
+*.pyc

@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(alembic revision:*)",
+      "Bash(python:*)",
+      "Bash(rg:*)",
+      "Bash(npm run lint)",
+      "Bash(yarn lint)",
+      "Bash(npx eslint:*)",
+      "Bash(mv:*)",
+      "Bash(grep:*)",
+      "Bash(find:*)",
+      "Bash(pkill:*)",
+      "Bash(true)",
+      "Bash(curl:*)",
+      "Bash(rm:*)",
+      "Bash(alembic upgrade:*)",
+      "Bash(pip install:*)",
+      "Bash(alembic current:*)",
+      "Bash(psql:*)",
+      "Bash(chmod:*)",
+      "Bash(alembic history:*)",
+      "Bash(timeout:*)",
+      "Bash(alembic downgrade:*)",
+      "WebSearch",
+      "Bash(sed:*)",
+      "Bash(alembic:*)"
+    ],
+    "deny": []
+  }
+}

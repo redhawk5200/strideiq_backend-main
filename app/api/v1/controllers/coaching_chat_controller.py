@@ -21,7 +21,7 @@ class CoachingChatController:
         """Send message to AI coach. Creates session if doesn't exist."""
 
         try:
-            # Check authentication
+            # auth
             if not hasattr(request.state, 'user'):
                 raise HTTPException(
                     status_code=status.HTTP_401_UNAUTHORIZED,
@@ -30,7 +30,7 @@ class CoachingChatController:
 
             user_id = request.state.user.id
 
-            # Get data from payload
+            # data from payload
             session_id = payload.session_id
             message = payload.message
 
